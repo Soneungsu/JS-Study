@@ -1,11 +1,19 @@
-let a = 1;
-let b = 2;
+// let a = 1;
+// let b = 2;
 
-console.log(a, b);
+// console.log(a, b);
 
-let c = a;
+// let c = a;
+// a = b;
+// b = c;
+// console.log(a, b);
+
+//문제 1
+let a = 30;
+let b = 50;
+const temp = a;
 a = b;
-b = c;
+b = temp;
 console.log(a, b);
 
 console.log(20 + 30);
