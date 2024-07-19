@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-image: url(https://www.patternfly.org/2022.11/images/basic.f4f127adeeaf58d28161c05c04b22668.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.add-btn {
+  color: white;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+#user-value {
+  min-width: 50%;
+  min-height: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+.tabs-container {
+  border: 1px solid white;
+}
+.tabs-wrapper {
+  display: flex;
+  color: white;
+  padding: 20px 0;
+}
+
+.tabs-wrapper div {
+  margin: 0 20px;
+}
+.item-list {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  align-items: center;
+  padding: 20px 20px;
+}
+.item {
+  color: white;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="../numbergaming/style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header, footer는 자동 로드됨 -->
+    <header></header>
+    <!-- header, footer는 자동 로드됨 -->
+    <!-- 코딩 시작 -->
+    <main>
+      <div class="input-wrapper">
+        <input
+          type="text"
+          id="user-value"
+          placeholder="할 일을 추가하세요"
+          onfocus="this.placeholder=''"
+          onblur="this.placeholder='할 일을 추가하세요'"
+        />
+        <div class="add-btn">+</div>
+      </div>
+      <div class="tabs-container">
+        <div class="tabs-wrapper">
+          <div class="All">모두</div>
+          <div class="start">시작전</div>
+          <div class="inprogress">진행중</div>
+          <div class="done">완료</div>
+        </div>
+        <div class="main-board"></div>
+      </div>
+    </main>
+    <!-- end -->
+    <!-- header, footer는 자동 로드됨 -->
+    <footer></footer>
+    <!-- header, footer는 자동 로드됨 -->
+    <script>
+      $(function () {
+        $("header").load("../numbergaming/include/header.html");
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
