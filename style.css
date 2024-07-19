@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-image: url(https://www.patternfly.org/2022.11/images/basic.f4f127adeeaf58d28161c05c04b22668.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid darkgray;
+  font-size: larger;
+  cursor: pointer;
+  color: white;
+  padding: 0 20px;
+}
+
+.about-me a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: aqua;
+  }
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  border-radius: 30px;
+  width: 50%;
+  height: 40%;
+}
+.number-game-title {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#input-user {
+  width: 50%;
+  text-align: center;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.gaming-btn {
+  display: flex;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+#start,
+#reset {
+  margin: 0 10px;
+}
+
+.result div {
+  text-align: center;
+  margin: 10px 0;
+  color: white;
+}
