@@ -47,3 +47,7 @@ body {
 .item {
   color: white;
 }
+
+#task-done {
+  text-decoration: line-through;
+}
