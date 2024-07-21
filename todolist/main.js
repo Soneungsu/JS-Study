@@ -89,7 +89,7 @@ const render = () => {
           </div>`;
       }
     })
-    .join();
+    .join("");
   document.querySelector(".main-board").innerHTML = resultHTML;
 };
 
