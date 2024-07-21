@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   background-image: url(https://www.patternfly.org/2022.11/images/basic.f4f127adeeaf58d28161c05c04b22668.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +11,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
 }
 
 .add-btn {
@@ -24,6 +24,7 @@ body {
   min-height: 50px;
   border-radius: 20px;
   text-align: center;
+  margin: 10px 0;
 }
 .tabs-container {
   border: 1px solid white;
@@ -31,19 +32,31 @@ body {
 .tabs-wrapper {
   display: flex;
   color: white;
+  align-items: center;
+  position: relative;
   padding: 20px 0;
 }
-
 .tabs-wrapper div {
-  margin: 0 20px;
+  padding: 0 20px;
 }
+
+.under-line {
+  background-color: orange;
+  height: 4px;
+  width: 45px;
+  position: absolute;
+  top: 54px;
+  left: -20px;
+}
+
 .item-list {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid white;
   align-items: center;
-  padding: 20px 20px;
+  border-top: 1px solid white;
+  padding: 20px 0;
 }
+
 .item {
   color: white;
 }
